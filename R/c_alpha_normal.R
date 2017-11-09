@@ -99,7 +99,7 @@ Calpha.normal <- function(Y, test=c("case1","case2","equicorr"),
 	p.value <- pchisq(C.alpha, k1, lower.tail=FALSE)
 	
 	list( sv=list(mu=mu0, Sigma=Sigma0), 
-    C.alpha=C.alpha, p.value=p.value, test=test)
+    C.alpha=C.alpha, p.value=p.value, k1=k1, test=test)
 
 
 }
