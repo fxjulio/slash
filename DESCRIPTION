@@ -1,0 +1,13 @@
+Package: slash
+Type: Package
+Title: Slash reparametrized
+Version: 0.1
+Date: 21-12-2015
+Author: Julio Avila, Regiane Slongo Fagundes
+Imports: numDeriv,matrixcalc
+Maintainer: Julio Avila <jeavila@uc.cl>
+Description: Slash package implemets EM algorithm and other
+ utilities like analytic score and Fisher Information.
+License: GPL (>= 2)
+LazyLoad: yes
+RoxygenNote: 6.0.1
